@@ -30,7 +30,7 @@ class MultiImageStreamCompleter extends ImageStreamCompleter {
       }
     }, onError: (dynamic error, StackTrace stack) {
       reportError(
-        context: ErrorDescription('resolving an image codec'),
+        context: ErrorDescription('resolving an image codec error lena'),
         exception: error,
         stack: stack,
         informationCollector: informationCollector,
